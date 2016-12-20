@@ -89,7 +89,7 @@
                 android:layout_width="16dp"
                 android:layout_weight="1"
                 android:layout_marginRight="15dp"
-                tools:background="@drawable/main_location"
+                android:background="@drawable/main_location"
                 android:backgroundTint="#a8a8a8" />
 
             <TextView
