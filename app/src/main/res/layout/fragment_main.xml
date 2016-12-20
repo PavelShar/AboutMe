@@ -2,6 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="ru.limtu.aboutme2.MainFragment">
 
 
@@ -88,7 +89,7 @@
                 android:layout_width="16dp"
                 android:layout_weight="1"
                 android:layout_marginRight="15dp"
-                tools:background="@drawable/location_icon"
+                tools:background="@drawable/main_location"
                 android:backgroundTint="#a8a8a8" />
 
             <TextView
@@ -105,5 +106,13 @@
 
     </LinearLayout>
 
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
 
 </FrameLayout>
