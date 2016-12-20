@@ -1,0 +1,118 @@
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?actionBarSize"
+            android:orientation="vertical"
+            tools:context="ru.limtu.aboutme2.EducationFragment">
+
+            <!--SCHOOL-->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:src="@drawable/school"
+                android:scaleType="centerCrop"
+                android:foreground="#70000000" >
+            </ImageView>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="-80dp"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="10sp"
+                    android:textColor="#ffffff"
+                    android:padding="16dp"
+                    android:paddingBottom="5dp"
+                    android:text="@string/school_photo_title"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="16dp"
+                android:paddingTop="5dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="@string/education_title_school"
+                    android:textSize="16sp"
+                    android:textColor="#bbbbbb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:text="@string/education_school"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="14sp"
+                    android:textColor="#545454" />
+
+
+            </LinearLayout>
+
+
+            <!--University-->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:src="@drawable/university"
+                android:scaleType="centerCrop"
+                android:foreground="#70000000" >
+            </ImageView>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="-80dp"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="10sp"
+                    android:textColor="#ffffff"
+                    android:padding="16dp"
+                    android:paddingBottom="5dp"
+                    android:text="@string/university_photo_title"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="16dp"
+                android:paddingTop="5dp"
+                android:layout_marginBottom="80dp"
+
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="@string/education_title_school"
+                    android:textSize="16sp"
+                    android:textColor="#bbbbbb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:text="@string/education_school"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="14sp"
+                    android:textColor="#545454" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+

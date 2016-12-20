@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Обо мне</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="import_frag">Import</string>
+
+    <string name="main_fio">Шарыпов Павел</string>
+    <string name="main_about">Я магистрант кафедры компьютерного проектирования и дизайна Университета ИТМО. Моя программа «Веб-технологии».</string>
+    <string name="main_city">Санкт-Петербург</string>
+    <string name="main_age">23 года</string>
+    <string name="menu_appInfo">Приложение создано в рамках дисциплины \'Разработка Web-приложений для мобильных устройств\' Университет ИТМО. 2016</string>
+    <string name="menu_vk">/pasharypov</string>
+    <string name="menu_mail">pavloniym@gmail.com</string>
+    <string name="menu_phone">+7 (981) 890-47-66</string>
+    <string name="menu_about_me">Обо мне</string>
+    <string name="menu_skills">Навыки</string>
+    <string name="menu_education">Образование</string>
+    <string name="menu_projects">Проекты</string>
+
+
+    <string name="education_title_school">Среднее образование</string>
+    <string name="education_school">
+        Сам я не местный. В 2000-ом году родители отдали меня в среднюю общее образовательную школу №30 в городе Сыктывкаре.
+        Это в Республике Коми, в Северо-Западном Федеральном Округе. Но не думаю, что это кому-нибудь интересно.
+        \nВ ней я проучился все 11 лет, до 2011 года.
+        \n\nНе скажу, что учиться мне было сильно тяжело. Нет, напротив - мне это даже нравилось. Школу я закончил с серебрянной медалью, чему рад.
+    </string>
+    <string name="school_photo_title">МОУ СОШ №30\nСыктывкар\n2000-2011 гг.</string>
+    <string name="university_photo_title">НИУ ВШЭ СПб\nСанкт-Петербург\n2011-2015</string>
+
+
+</resources>
